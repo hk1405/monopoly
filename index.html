@@ -29,6 +29,11 @@ body {
 </head>
 <body>
 <div id="title">Monopoly</div>
-<button id="startBtn">Start</button>
+<button id="startBtn" onclick="startGame();">Start</button>
+<script>
+function startGame() {
+  $('#startBtn').fadeOut();
+}
+</script>
 </body>
 </html>
