@@ -40,6 +40,15 @@ body {
 <div id="title">Monopoly</div>
 <button id="startBtn" onclick="startGame();">Start</button>
 <script>
+var players = {
+  player1: {
+    money: 150,
+    name: null,
+    properties: [],
+    currentPos: null
+  }
+};
+
 function startGame() {
   $('#startBtn').fadeOut();
 }
